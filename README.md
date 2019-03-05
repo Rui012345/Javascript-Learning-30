@@ -1,3 +1,3 @@
 # JSDemo
 web project demo
-CSSDemo Branch
+JQuery Demo
