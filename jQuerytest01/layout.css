@@ -1,0 +1,105 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: "Times New Roman",serif;
+}
+header{
+	height:  10em;
+	background-color: #eef;
+	border-bottom:: 1px solid #66d;
+	text-align: center;
+	padding-top:5em;
+}
+section,aside{
+	height: auto;
+}
+.button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.button1{
+	background-color: #4CAF50;
+}
+.button2{
+	background-color: #77f;
+}
+.button3{
+	background-color: #78f;
+}
+.button4{
+	background-color: #4CAF50;
+}
+section{
+	float: left;
+	background-color:  #ddd;
+	width:  40%;	
+	font-size: 20px;
+}
+.item2{
+	text-align: center;
+	background-color: #4CAF50;
+}
+.jquery{
+	padding: 50px 50px 50px 50px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #777;
+}
+.jqueryshowhide{
+
+}
+.jqueryslide{
+	padding-top: 20px;
+	text-align: center;
+}
+#flip,#panel{
+	padding: 5px;
+	text-align: center;
+	border:1px solid #4CAF50;
+}
+#flip{
+	margin-top:20px;
+	background-color: #4CAF50;
+	color:#fff;
+}
+#panel{
+	padding: 50px;
+	display: none;
+
+}
+#panel ul li{
+	display: block;
+	text-decoration: none;
+}
+aside{
+	overflow: hidden;
+	background-color: #9ee;
+	padding-left: 100px;
+	padding-top:50px;
+}
+#div1{
+	width:80px;
+	height:80px;
+	background-color:#f77;
+	display: none;
+}
+#div2{
+	width:80px;
+	height:80px;
+	background-color:#77f;
+	display: none;
+}
+#div3{
+	width:80px;
+	height:80px;
+	background-color:#7f7;
+	display: none;
+}
