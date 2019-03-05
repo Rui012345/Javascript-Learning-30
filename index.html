@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<script type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" href="css/layout.css">
+	<title></title>
+</head>
+<body>
+	<button id="btn1">test</button>
+	<div id="div1">
+		<a href="http://www.baidu.com" id ="link1">BaiDu</a>
+		<p id = "p1">激活</p>
+		<p id = "p2">取消</p>
+	</div>
+	<div id="div2">
+		<p id = "p3">取消</p>
+		<p id = "p4">取消</p>
+	</div>
+
+	<script type="text/javascript">	
+
+//封装
+		function bindEvent(elem,type,fn){
+			elem.addEventListener(type,fn)
+		}
+		var p1 = document.getElementById("p1")
+
+		bindEvent(p1,'click',function(e){
+			e.stopPropagation()
+			alert('激活')
+		})
+
+		var body = document.body
+		bindEvent(body,'click',function(e){
+			alert('取消')
+		})
+
+	</script>
+
+
+</body>
+</html>
