@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS多列等高布局</title>
+	<style type="text/css">
+		*{
+			padding: 0px;
+			margin: 0px;
+		}
+		.container{
+			margin: 0 auto;
+			width: 500px;
+			/*overflow: hidden;*/
+		}
+			.left{
+			background-color: #f0f0db;
+			float: left;
+			width: 30%;
+			/*padding-bottom: 2000px;
+			margin-bottom: -2000px;*/
+		}
+		.right{
+			background-color: #f0c0c0;
+			float: left;
+			width: 70%;
+		/*	padding-bottom: 2000px;
+			margin-bottom: -2000px;*/
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="left">This is 30% left.</div>
+		<div class="right">This is 70% right.<br><br><br><br>higher</div>
+	</div>
+	
+
+</body>
+</html>
