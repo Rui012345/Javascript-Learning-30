@@ -8,7 +8,8 @@ web project demo
 
 Javascript 30
 ---
-30 Day Vanilla JS Challenge https://JavaScript30.com
+30 Day Vanilla JS Challenge https://JavaScript30.com  
+
 1.JavaScript Drum Kit  
 
 [效果预览](https://rui012345.github.io/Javascript-Learning-30/01%20-%20JavaScript%20Drum%20Kit/index-GREY.html)  
