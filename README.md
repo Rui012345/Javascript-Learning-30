@@ -10,8 +10,7 @@ Javascript 30
 ---
 30 Day Vanilla JS Challenge https://JavaScript30.com  
 
-1.JavaScript Drum Kit  
-
+1.JavaScript Drum Kit
 [效果预览](https://rui012345.github.io/Javascript-Learning-30/01%20-%20JavaScript%20Drum%20Kit/index-GREY.html)  
 
 监听键盘触发的`keydown`事件，获取按下的键值所对应的`audio`，触发play方法，修改外部盒子的样式，使用`setTimeout`或者监听`transitionend`事件，移除css样式。
